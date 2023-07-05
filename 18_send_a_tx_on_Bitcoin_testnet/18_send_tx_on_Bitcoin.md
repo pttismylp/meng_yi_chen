@@ -2,7 +2,8 @@
 ### 1.1 实验名称
 send a tx on Bitcoin testnet, and parse the tx data down to every bit, better write script yourself
 ### 1.2 实验内容
-####1.2.1在比特币测试网上发布一个交易
+**1.2.1在比特币测试网上发布一个交易**
+
 **1.创建一个简单的测试网钱包**
 
 代码如下：
