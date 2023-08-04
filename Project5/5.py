@@ -3,10 +3,10 @@ from SM3 import sm3_hash
 import random
 
 def CreateTree():
-    data = []
+    nodevalue = []
     for i in range(100):
-        data.append(random.randint(1, 100))
-    tree=[[sm3_hash(str(hex(i)[2:])) for i in data]]
+        nodevalue.append(random.randint(1, 100))
+    tree=[[sm3_hash(str(hex(i)[2:])) for i in nodevalue]]
     for i in range(ceil(log2(len(tree[0])) + 1)-1):
         h = [sm3_hash("1"+tree[i][j*2]+ tree[i][j*2+1]) for j in range(int(len(tree[i])/2))]
         if len(tree[i]) % 2 != 0:
