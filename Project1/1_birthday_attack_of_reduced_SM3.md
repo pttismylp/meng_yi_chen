@@ -1,4 +1,4 @@
-##实验介绍
+## 实验介绍
 
 ### 1.1 实验名称
  implement the naïve birthday attack of reduced SM3
@@ -29,12 +29,12 @@ birthattack(32)
 
 
 
-###1.3运行结果
+### 1.3运行结果
 
 部分运行结果截屏：
 
 ![1.png](LbCVXbu8.png)
 
-###1.4参考文献
+### 1.4参考文献
 SM3实现：[(37条消息) 密码学 SM3算法 Python实现_python sm3_VIIoooo的博客-CSDN博客](https://blog.csdn.net/weixin_45688634/article/details/123292997)
 
