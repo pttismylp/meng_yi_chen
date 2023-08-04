@@ -1,9 +1,9 @@
-##实验介绍
+## 实验介绍
 
 ### 1.1 实验名称
 send a tx on Bitcoin testnet, and parse the tx data down to every bit, better write script yourself
 ### 1.2 实验内容
-####1.2.1在比特币测试网上发布一个交易
+#### 1.2.1在比特币测试网上发布一个交易
 **1.创建一个简单的测试网钱包**
 
 代码如下：
@@ -44,7 +44,7 @@ print(tx_hash)
 
 ![VmWQwF.png](VmWQwF.png)
 
-####1.2.2写脚本解析交易数据
+#### 1.2.2写脚本解析交易数据
 多次创建交易，并利用如下代码段（详见gettxdata.py，已上传至仓库）解析交易数据
 ```python
 from requests_html import HTMLSession
