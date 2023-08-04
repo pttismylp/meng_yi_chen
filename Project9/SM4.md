@@ -46,7 +46,7 @@ SM4的解密过程与加密过程完全相同，也包括32轮迭代和一次反
 ![555.png](https://img1.imgtp.com/2023/08/03/BcJWBPK2.png)
 （3）固定参数$CK_{i}$的取值：
 32个$CK_{i}$(i∈[0,31]) 的具体值为:
-![666.png](https://img1.imgtp.com/2023/08/03/YQxvfPFp.png)
+![666.png](https://img1.imgtp.com/2023/08/03/YQxvfPFp.png)（点击查看完整图片）
 
 # 五、测试结果
 
